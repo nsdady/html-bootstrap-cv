@@ -4,6 +4,8 @@ A lightweight HTML CV created using HTML and BOOTSTRAP library
 ---
 
 ### Few details about the page:
+* The page is **fully RESPONSIVE**
+
 * I am using [Boostrap version 5.1.0](https://getbootstrap.com/)
 
 * For the icons I am using [Boostrap Icons version 1.3.0](https://icons.getbootstrap.com/)
