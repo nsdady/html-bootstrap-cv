@@ -1,0 +1,163 @@
+body{
+    background-color: #C6C6C9;
+}
+.container{
+    max-width: 1200px!important;
+    font-family: 'Barlow Semibold';
+    font-size: 1.1rem;
+}
+.font-black{
+    font-family: 'Barlow Black';
+}
+.font-extra-bold{
+    font-family: 'Barlow Extrabold';
+}
+.font-name{
+    font-size: 3.3rem;
+    line-height: 4rem;
+}
+.subtitle{
+    font-family: 'Barlow Semibold';
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.subtext{
+   color: #ACACAF;
+}
+.about-text{
+    color: #E2EAFC;
+}
+.grad-title{
+    font-family: 'Barlow Extrabold';
+    font-weight: 500;
+    font-size: 3.4rem;
+}
+.grad-title-bg{    
+    background: linear-gradient(4260deg, #DEEDF0 0%, #7986A3 100%) 0% 0% no-repeat;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.grad-title-pfolio-bg{    
+    background: linear-gradient(4260deg, #FF8F65 0%, #E440CB 100%) 0% 0% no-repeat;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.text-light{color: #fff!important;}
+.left-bg{background-color: #252731;}
+.bg-dark{background-color: #1E1F27;}
+.card{
+    background-color: #1E1F27;
+    padding: 0.6rem 0.6rem 0.3rem 0.6rem;
+    border-radius: 10px;
+}
+
+.ic-background{
+    background: linear-gradient(45deg, #18252e 0%, #263b49 100%) 0% 0% no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    padding: 0.4rem;
+}
+.ic-gradient {
+	background: linear-gradient(40deg, #4044E3 0%, #3ED8FF 100%) 0% 0% no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 19px;
+    position: relative;
+    top: -3px;
+}
+.ic-background-2{
+    background-color: #35363D;
+    border-radius: 50%;
+    width: 40px;
+    padding: 0.4rem;
+}
+.ic-img{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 88%;
+    height: 27px;
+}
+.ic-win{
+    background-image: url(../images/ic-win.jpg);
+}
+.ic-lin{
+    background-image: url(../images/ic-lin.jpg);
+}
+.ic-background-cal{
+    background-color: #35363D;
+    border-radius: 50%;
+    width: 40px;
+    height: 38px;
+    padding: 0.4rem;
+}
+
+.text-secondary{
+    font-size: 12px;
+    padding: 0 0 2px 0;
+}
+.bolded-big{
+    font-size: 18px;
+    font-weight: 700;
+}
+.c-info{
+    position: relative;
+    top: -8px;
+}
+.c-info a{
+    color: #fff;
+    text-decoration: none;
+}
+.c-info a:hover{
+    color: #e4e4e4;
+    text-decoration: underline;
+}
+
+.progress{
+    margin: 0.6rem 0 1.2rem 0;
+    background-color: #000;
+    height: 0.6rem;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.progress .bg-info{
+    background: linear-gradient(90deg, #4040E3 0%, #3EDAFF 100%) 0% 0% no-repeat;
+    border-radius: 0.25rem;
+    animation: 6s ease-out 3s 1 slideInFromLeft;
+}
+.col-md-6 .card{
+    margin: 0 20px 0 0;
+}
+
+@media (max-width: 800px) {
+    .container{
+        font-size: 1rem;
+    }
+    .font-name{
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+    .subtitle{
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    .grad-title{
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
+    .col-md-6 .card{
+        margin: 0 0 10px 0;
+    }
+}
